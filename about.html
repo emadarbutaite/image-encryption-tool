@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Image Encryption Tool</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <link href="lib/aos/aos.css" rel="stylesheet">
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="lib/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="icon" href="img/icon.png">
+
+</head>
+
+<body>
+
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center justify-content-between">
+      <h1 class="logo"><a href="index.html">Image Encryption Tool<span>.</span></a></h1>
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a href="index.html">Encryption</a></li>
+          <li><a href="decrypt.html">Decryption</a></li>
+          <li><a class="active" href="about.html">About</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav>
+    </div>
+  </header>
+
+  <section id="about">
+    <div class="container" data-aos="fade-up">
+
+      <div class="section-title">
+        <h2>About the Tool</h2>
+        <p>Image Encryption Tool helps protect your image files.<br>This tool will encrypt your image file by splitting it into two unrecognizable parts and allow you to decrypt the image file after submitting both of these parts.</p>
+        <h3>How does the <span>Image Encryption Tool</span> work?</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+          <img src="img/example.gif" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <h3>The Image Encryption Tool uses visual cryptography for image encryption.</h3><br>
+          <p class="fst-italic">Allowed image file formats: PNG, JPEG, JPG, GIF.</p>
+          <p class="fst-italic">The decrypted image is provided in PNG format.</p>
+          <p>To keep the image secure, it is suggested to share the encrypted parts of the image sepretley across different sharing platforms.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <footer id="footer">
+    <div class="container py-4">
+      <div class="copyright">
+        &copy; <strong><span>Image Encryption Tool</span></strong>
+      </div>
+      <div class="credits">
+        Ema Darbutaitė &copy; Vilnius Tech
+      </div>
+    </div>
+  </footer>
+
+  <script src="lib/aos/aos.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/FileSaver-master/src/FileSaver.js"></script>
+
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
